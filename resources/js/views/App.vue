@@ -1,8 +1,4 @@
 <template>
-
-    <div>
-        <h1>PRIMA DEL LOGIN</h1>
-    </div>
     
 </template>
 
