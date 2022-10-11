@@ -47,5 +47,7 @@
                 
             </tbody>
         </table>
+
+        <a href="{{route('admin.categories.index')}}">vedi</a>
     </div>
 @endsection
