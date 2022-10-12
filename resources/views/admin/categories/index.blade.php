@@ -13,7 +13,7 @@
             @endforeach
         </ul>
         <div class="text-center">
-            <button class="btn btn-info text"><a href="{{route('admin.posts.index')}}"><-</a></button>
+            <a href="{{route('admin.posts.index')}}" class="btn btn-info"><-</a>
         </div>
         
     </div>

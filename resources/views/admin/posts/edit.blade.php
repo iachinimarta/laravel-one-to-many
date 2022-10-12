@@ -45,7 +45,7 @@
                 </div>
             @enderror
 
-            <button class="btn btn-info"><a href="{{route('admin.posts.index')}}"><-</a></button>
+            <a href="{{route('admin.posts.index')}}" class="btn btn-info"><-</a>
             <button type="submit" class="btn btn-primary">Update</button>
             </form>
     </div>
