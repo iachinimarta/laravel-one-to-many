@@ -16,6 +16,7 @@
                     <th scope="col">#</th>
                     <th scope="col">Title</th>
                     <th scope="col">Slug</th>
+                    <th scope="col">Category</th>
                     <th scope="col" class="text-center">Action</th>
                 </tr>
                 </thead>
@@ -26,6 +27,7 @@
                     <th scope="row">{{$post->id}}</th>
                     <td>{{$post->title}}</td>
                     <td>{{$post->slug}}</td>
+                    <td>{{$post->category_id}}</td>
                     <td>
                         <div class="d-flex justify-content-center">
                             <button type="button" class="btn btn-info">
@@ -48,6 +50,6 @@
             </tbody>
         </table>
 
-        <a href="{{route('admin.categories.index')}}">vedi</a>
+        <a href="{{route('admin.categories.index')}}">Categories</a>
     </div>
 @endsection

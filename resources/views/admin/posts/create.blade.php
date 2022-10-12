@@ -17,6 +17,15 @@
                 </div>
             @enderror
 
+            <div class="mb-3">
+                <label for="selectCategory">Category</label><br>
+                <select name="category_id" id="selectCategory">
+                    @foreach ($categories as $category)
+                        <option value="1">{{$category->name}}</option>
+                    @endforeach
+                </select>
+            </div>
+
             <div class="form-floating mb-4">
                 <label for="floatingTextarea">Content</label>
                 <textarea class="form-control @error('content') is-invalid @enderror" placeholder="Insert content here" id="floatingTextarea" name="content" required>{{old('content')}}</textarea>        
