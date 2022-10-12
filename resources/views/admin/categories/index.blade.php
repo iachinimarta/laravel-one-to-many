@@ -12,5 +12,9 @@
                 </li>
             @endforeach
         </ul>
+        <div class="text-center">
+            <button class="btn btn-info text"><a href="{{route('admin.posts.index')}}"><-</a></button>
+        </div>
+        
     </div>
 @endsection

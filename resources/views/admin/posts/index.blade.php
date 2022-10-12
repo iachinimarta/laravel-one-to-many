@@ -27,7 +27,7 @@
                     <th scope="row">{{$post->id}}</th>
                     <td>{{$post->title}}</td>
                     <td>{{$post->slug}}</td>
-                    <td>{{$post->category_id}}</td>
+                    <td>{{$post->category?$post->category->name:'undefined'}}</td>
                     <td>
                         <div class="d-flex justify-content-center">
                             <button type="button" class="btn btn-info">
